@@ -24,6 +24,14 @@ class GameViewModel: ObservableObject {
         "\(game.currentQuestionIndex + 1) / \(game.numberOfQuestions)"
     }
     
+    var correctGuesses: Int {
+       game.guessCount.correct
+     }
+    
+     var incorrectGuesses: Int {
+       game.guessCount.incorrect
+     }
+    
     // 1
     var guessWasMade: Bool {
         if let _ = game.guesses[currentQuestion] {
@@ -31,6 +39,10 @@ class GameViewModel: ObservableObject {
         } else {
             return false
         }
+    }
+    
+    var gameIsOver: Bool {
+      game.isOver
     }
     
     // MARK: - Internal Methods
