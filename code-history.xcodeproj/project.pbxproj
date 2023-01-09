@@ -12,6 +12,8 @@
 		E11C2E7329380B1B004CC3AE /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C2E7229380B1B004CC3AE /* ChoiceTextView.swift */; };
 		E1356D55294CDDEF00673935 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1356D54294CDDEF00673935 /* GameViewModel.swift */; };
 		E1356D57294D32D900673935 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1356D56294D32D900673935 /* QuestionView.swift */; };
+		E18556852968DD2900033065 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18556842968DD2900033065 /* ScoreView.swift */; };
+		E18556872968E7A800033065 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18556862968E7A800033065 /* ScoreViewModel.swift */; };
 		E1D734EC2947DE6500D52D0E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D734EB2947DE6500D52D0E /* WelcomeView.swift */; };
 		E1D734EE2947E60200D52D0E /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D734ED2947E60200D52D0E /* GameColor.swift */; };
 		E1D734F02947E80C00D52D0E /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D734EF2947E80C00D52D0E /* BottomTextView.swift */; };
@@ -47,6 +49,8 @@
 		E11C2E7229380B1B004CC3AE /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		E1356D54294CDDEF00673935 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		E1356D56294D32D900673935 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		E18556842968DD2900033065 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		E18556862968E7A800033065 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
 		E1D734EB2947DE6500D52D0E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		E1D734ED2947E60200D52D0E /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
 		E1D734EF2947E80C00D52D0E /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 			children = (
 				E11C2E7229380B1B004CC3AE /* ChoiceTextView.swift */,
 				E1DBE83A28935B8200C95329 /* GameView.swift */,
+				E18556842968DD2900033065 /* ScoreView.swift */,
 				E1D734EB2947DE6500D52D0E /* WelcomeView.swift */,
 				E1D734ED2947E60200D52D0E /* GameColor.swift */,
 				E1356D56294D32D900673935 /* QuestionView.swift */,
@@ -113,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				E1356D54294CDDEF00673935 /* GameViewModel.swift */,
+				E18556862968E7A800033065 /* ScoreViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -308,10 +314,12 @@
 				E1356D57294D32D900673935 /* QuestionView.swift in Sources */,
 				E1356D55294CDDEF00673935 /* GameViewModel.swift in Sources */,
 				E11C2E6F29380420004CC3AE /* Question.swift in Sources */,
+				E18556872968E7A800033065 /* ScoreViewModel.swift in Sources */,
 				E1D734EC2947DE6500D52D0E /* WelcomeView.swift in Sources */,
 				E1107E0629429D8600B3C17A /* Game.swift in Sources */,
 				E1DBE83B28935B8200C95329 /* GameView.swift in Sources */,
 				E1D734F02947E80C00D52D0E /* BottomTextView.swift in Sources */,
+				E18556852968DD2900033065 /* ScoreView.swift in Sources */,
 				E1D734EE2947E60200D52D0E /* GameColor.swift in Sources */,
 				E11C2E7329380B1B004CC3AE /* ChoiceTextView.swift in Sources */,
 				E1DBE83928935B8200C95329 /* Code_HistoryApp.swift in Sources */,
